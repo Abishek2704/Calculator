@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 500px;
+    background-color: rgba(17, 16, 16, 0.503);
+    overflow: hidden;
+    border-radius: 20px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgba(208, 203, 196, 0.651);
+    color: black;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 25px;
+    gap: 20px;
+}
+button{
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(21, 19, 19, 0.418);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#operator{
+    background-color: rgba(255, 170, 0, 0.7);
+}
+
+button:hover{
+    background-color: rgba(21, 19, 19, 0.223);
+}
+#operator:hover{
+    background-color: rgba(212, 182, 83, 0.767);
+}
+button:active{
+    background-color: rgba(48, 122, 188, 0.418);
+}
+
+#operator:active{
+    background-color: rgba(48, 122, 188, 0.418);
+}
